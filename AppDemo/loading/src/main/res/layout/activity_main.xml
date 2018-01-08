@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fengwenyi.app.loading.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnFuzzy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模糊进度"/>
+    <Button
+        android:id="@+id/btnFuzzyDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模糊进度示例"/>
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条"/>
+    <Button
+        android:id="@+id/btnProgressCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义进度条"/>
+    <Button
+        android:id="@+id/btnProgressDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条示例"/>
+
+</LinearLayout>
